@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verifique sua idade</h1>
+    </header>
+    <main>
+        <div>
+            <label for="txtano">Ano de Nascimento:</label>
+            <input type="number" name="txtano" id="txtano">
+            <p>Sexo:</p>
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+        <div id=" foto">
+            <img id="imagem" src="imagens/ponto.png" alt="foto">
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/vilianoliveira" target="_blank" rel="external">#Github Vilian Oliveira</a>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
